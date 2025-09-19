@@ -16,3 +16,9 @@ message UserInfo{
     string email = 2;
     int32 ip = 3;
 }
+
+message UserAdress{
+    int32 uid = 1;
+    string home = 2;
+    int32 brand = 3;
+}
