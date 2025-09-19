@@ -1,0 +1,18 @@
+
+syntax = "proto3"; // 指定proto版本
+option go_package = "./api/users;users"; // 指定golang包名
+
+package user.ser; // 指定默认包名
+
+// user
+message User{
+    int32 uid = 1;
+    string name = 2;
+    int32 age = 3;
+}
+
+message User2{
+    int32 uid = 1;
+    string name = 2;
+    int32 age = 3;
+}
