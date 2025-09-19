@@ -10,3 +10,9 @@ message User{
     string name = 2;
     int32 age = 3;
 }
+
+message UserInfo{
+    int32 uid = 1;
+    string email = 2;
+    int32 ip = 3;
+}
